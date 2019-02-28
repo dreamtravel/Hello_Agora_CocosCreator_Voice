@@ -69,6 +69,8 @@ assets/textures/background/*.meta
 
 .vscode/
 
+settings/services.json
+
 
 #//////////////////////////
 # Agora SDK
