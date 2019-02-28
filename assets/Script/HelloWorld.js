@@ -66,7 +66,7 @@ cc.Class({
 
     onLoad: function () {        
         this.updateUI(false);
-        agora.on('join-channel-success',this.onJoinChannelSuccess, this);
+        agora.on('join-channel-success',this.onJoinChannelSuccess);
     },
 
     onDestroy () {
